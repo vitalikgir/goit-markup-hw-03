@@ -33,7 +33,7 @@ body {
   padding: 0;
   margin: 0;
 }
-/
+
 /* .port:not(:nth-last-child(-n +3)){
   margin-right: 30px; */
 }
@@ -136,9 +136,26 @@ h6 {
   text-align: center;
   padding-bottom: 94px;
 }
+.staff {
+  margin-right: 30px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+ }
 .cust-marg {
   margin-right: 30px;
-}
+  background: rgba(47, 48, 58, 0.8);
+  border-radius: 0px 0px 4px 4px;
+ }
+ .clients {
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 20px;
+  justify-content: center;
+ }
 .customers {
   display: flex;
   margin-right: 30px;
@@ -214,7 +231,7 @@ h6 {
 .subtitle {
   font-size: 14px;
   line-height: 1.14;
-
+  padding-bottom: 27px;
   text-transform: uppercase;
 }
 .project {
@@ -225,7 +242,8 @@ h6 {
 }
 .projects .subtitle {
   color: var(--white-text-color);
-  padding-bottom: 94px;
+ 
+  
 }
 .flex {
   display: flex;
@@ -262,11 +280,12 @@ h6 {
   line-height: 1.17;
 
   text-align: center;
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .section-subtitle {
   font-weight: 500;
+  
 }
 
 .footer .logo {
@@ -308,14 +327,22 @@ h6 {
 
   text-align: center;
   display: block;
-  padding-top: 74px;
+  padding-top: 18px;
   padding-bottom: 21px;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  
 }
 .link {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 /* Portfolio */
+.button {
+  margin-right: 8px;
+  margin-left: 8px;
+}
 
 .button {
   background-color: var(--secondary-bg-color);
@@ -331,10 +358,8 @@ h6 {
 .button:focus {
   background-color: var(--accent-color);
   color: var(--button-text-color);
-  padding-left: 8px;
-  padding-right: 8px;
-
 }
+
 .project-title {
   font-size: 18px;
   line-height: 2;
